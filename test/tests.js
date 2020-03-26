@@ -95,8 +95,8 @@ test('isEven function', function(assert){
     //Arrange
     //Setup
 
-    const x = 6;
-    const expected = (true);
+    const x = 7;
+    const expected = (false);
 
     //Act
 
@@ -107,3 +107,36 @@ test('isEven function', function(assert){
     assert.equal(result, expected);
 
 });
+
+
+
+// function getNumbers(x) {
+//     const array = [];
+
+//     for(let i = 0; i < x; i++); {
+
+//     const itIsEven = i % 2 === 0;
+    
+//     if(itIsEven) {
+//     array.push(i);}
+//     }
+//     return array;
+// }
+
+// test('getNumbers', function(assert) {
+
+//     //Arrange
+//     //Setup
+
+//     const x = 9;
+//     const expected = [2, 4, 6, 8];
+
+//     //Act
+
+//     const result = getNumbers;
+
+//     //Assert
+
+//     assert.deepEqual(result, expected);
+
+// })
