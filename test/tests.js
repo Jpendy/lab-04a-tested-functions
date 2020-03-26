@@ -80,13 +80,11 @@ test('divide function', function(assert){
 
 });
 
-function isEven(x, y){
+function isEven(x){
     if(x % 2 === 0){
         return true;
     }
-    if(y % 2 === 0){
-        return true;
-    }
+    
     else {
         return false;
     }
@@ -98,12 +96,11 @@ test('isEven function', function(assert){
     //Setup
 
     const x = 6;
-    const y = 7;
-    const expected = (true, false);
+    const expected = (true);
 
     //Act
 
-    const result = isEven(x, y);
+    const result = isEven(x);
 
     //Assert
 
